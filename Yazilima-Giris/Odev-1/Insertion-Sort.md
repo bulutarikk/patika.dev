@@ -11,10 +11,21 @@ Sayı dizisi incelendiğinde küçükten büyüğe sıralı hale geldiğini gör
 
 ###Big O Nation 
 Big-O Notation için yaptığımız işlem sayısı [n+(n-1)+(n-2)...+1] kadardır. Bu da n ardışık sayının toplamı formülü olan [n*(n+1)]/2 formülünü açtığımınzda (n²+2n+1)/2 gelir bu formülde baskın olan n² olduğu için Big-o Notation n² oluyor.
-          [nx(n+1)]/2 --> [n²+n]/2
+          [nx(n+1)]/2 → [n²+n]/2
            O(n²)
 
 
 ###18'in Yeri
 18 sayısı sıralama yapıldıktan sonra dizinin ortasında bulunduğunu göreceğiz. Sayı, dizinin ilk halinde de sayı dizinin ortasında bulunduğu için "average case" kapsamına girdiğini söyleyebiliriz.
+
+
+
+###SORU 2
+[7,3,5,8,2,9,4,15,6] dizisinin Insertion Sort'a göre ilk 4 adımını yazınız.
+→[7,3,5,8,2,9,4,15,6] → [(2),3,5,8,7,9,4,15,6]
+→[(2,3),5,8,7,9,4,15,6]
+→[(2,3),5,8,7,9,4,15,6] → [(2,3),4,8,7,9,5,15,6]
+→[(2,3,4),8,7,9,5,15,6] → [(2,3,4),5,7,9,8,15,6]
+
+
 
